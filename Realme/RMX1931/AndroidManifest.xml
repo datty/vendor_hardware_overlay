@@ -1,0 +1,10 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+        package="me.phh.treble.overlay.realme.rmx1931"
+        android:versionCode="1"
+        android:versionName="1.0">
+        <overlay android:targetPackage="android"
+                android:requiredSystemPropertyName="ro.vendor.product.device.oem"
+		android:requiredSystemPropertyValue="+RMX1931/RMX1931EX*"
+		android:priority="136"
+		android:isStatic="true" />
+</manifest>
